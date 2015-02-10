@@ -1,7 +1,8 @@
 # bter-transaction-script
 bter的比特币交易使用脚本（Java版）bter transaction script for Java
 帮盆友写的一个交易模块，bter上只有php版的，我就顺手翻译了一下~~
-例子
+
+例子（example）：
 	
 	// example 1: get funds
 	bterHttpsPost.bter_query('1/private/getfunds');
