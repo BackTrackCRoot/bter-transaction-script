@@ -37,6 +37,7 @@ class bterHttpsPost{
 		HttpsURLConnection con = (HttpsURLConnection) obj.openConnection();
 		String sign = getSignature(mData,SECRET);
 		con.setRequestMethod("POST");
+		con.setRequestProperty("Content-Type","application/x-www-form-urlencoded");
 		con.setRequestProperty("KEY", KEY);
 		con.setRequestProperty("SIGN", sign);
 		con.setDoOutput(true);
