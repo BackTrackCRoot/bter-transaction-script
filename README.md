@@ -8,10 +8,10 @@ bter的比特币交易使用脚本（Java版）bter transaction script for Java
 	bterHttpsPost.bter_query('1/private/getfunds', "");
 	
 	// example 2: cancel an order
-	bterHttpsPost.bter_query('1/private/cancelorder', "your json or your post data");
+	bterHttpsPost.bter_query('1/private/cancelorder', "your post URLencode data");
 	
 	// example 3: get order status
-	bterHttpsPost.bter_query('1/private/getorder', "your json or your post data");
+	bterHttpsPost.bter_query('1/private/getorder', "your post URLencode data");
 	
 	//example 4: list all open orders
 	bterHttpsPost.bter_query('1/private/orderlist', "");
